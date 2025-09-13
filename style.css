@@ -70,7 +70,58 @@ body {
     background-color: var(--lightyellow);
     border-radius: 10px;
     border: 1px solid var(--night);
+    position: relative;
 }
+
+/* PIPS START */
+.pip {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.num2 .pip {
+    top: 75%;
+    left: 25%;
+}
+
+.num2 .pip1 {
+    top: 25%;
+    left: 75%;
+}
+
+.num3 .pip1 {
+    top: 75%;
+    left: 25%;
+}
+
+.num3 .pip2 {
+    top: 25%;
+    left: 75%;
+}
+
+.num4 .pip1 {
+    top: 75%;
+    left: 25%;
+}
+
+.num4 .pip2 {
+    top: 25%;
+    left: 75%;
+}
+
+.num4 .pip3 {
+    top: 25%;
+  left: 25%;
+}
+
+
+/* PIPS END */
 
 #hold-btns {
     display: flex;
@@ -97,11 +148,24 @@ body {
     cursor: pointer;
 }
 
+#action-btns {
+    display: flex;
+}
+
 #enter-btn {
   width: 40px;
   height: 40px;
   background: var(--bittersweet);
   border-radius: 100%;
   cursor: pointer;
+}
+
+#roll-btn,
+#select-btns {
+    height: 40px;
+    width: 120px;
+    background: var(--bittersweet);
+    border-radius: 30px;
+    cursor: pointer;
 }
 
