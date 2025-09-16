@@ -59,6 +59,31 @@ body {
     border-radius: 10px;
 }
 
+/* SCORE DICE START */
+#score-dice {
+    display: flex;
+    gap: 8px;
+}
+
+.score-die {
+    width: 25px;
+    height: 25px;
+    background-color: var(--lightyellow);
+    border-radius: 5px;
+    border: 1px solid var(--night);
+    position: relative;
+}
+
+.score-pip {
+    width: 4.5px;
+    height: 4.5px;
+    border-radius: 100%;
+    background-color: #000;
+}
+
+/* #score-dice1 .score-pip1 */
+/* SCORE DICE END */
+
 #roll-dice {
     display: flex;
     gap: 5px;
@@ -117,10 +142,67 @@ body {
 
 .num4 .pip3 {
     top: 25%;
-  left: 25%;
+    left: 25%;
 }
 
+.num4 .pip4,
+.num4 .pip5,
+.num4 .pip6 {
+    top: 75%;
+    left: 75%;
+}
 
+.num5 .pip1 {
+    top: 75%;
+    left: 25%;
+}
+
+.num5 .pip2 {
+    top: 25%;
+    left: 75%;
+}
+
+.num5 .pip3 {
+    top: 25%;
+    left: 25%;
+}
+
+.num5 .pip4 {
+    top: 75%;
+    left: 75%;
+}
+
+.num6 .pip1 {
+    top: 75%;
+    left: 25%;
+}
+
+.num6 .pip2 {
+    top: 25%;
+    left: 75%;
+}
+
+.num6 .pip3 {
+    top: 25%;
+    left: 25%;
+}
+
+.num6 .pip4 {
+    top: 75%;
+    left: 75%;
+}
+
+.num6 .pip5 {
+    left: 75%;
+}
+
+.num6 .pip6 {
+    left: 25%;
+}
+
+.num0 .pip {
+    display: none;
+}
 /* PIPS END */
 
 #hold-btns {
