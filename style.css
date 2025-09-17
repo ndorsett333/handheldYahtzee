@@ -79,9 +79,99 @@ body {
     height: 4.5px;
     border-radius: 100%;
     background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-/* #score-dice1 .score-pip1 */
+#score-dice2 .score-pip1 {
+    top: 75%;
+    left: 25%;
+}
+
+#score-dice2 .score-pip2 {
+    top: 25%;
+    left: 75%;
+}
+
+#score-dice3 .score-pip2 {
+    top: 75%;
+    left: 25%;
+}
+
+#score-dice3 .score-pip3 {
+    top: 25%;
+    left: 75%;
+}
+
+#score-dice4 .score-pip1 {
+    top: 75%;
+    left: 25%;
+}
+
+#score-dice4 .score-pip2 {
+    top: 25%;
+    left: 75%;
+}
+
+#score-dice4 .score-pip3 {
+    top: 25%;
+    left: 25%;
+}
+
+#score-dice4 .score-pip4 {
+    top: 75%;
+    left: 75%;
+}
+
+#score-dice5 .score-pip1 {
+    top: 75%;
+    left: 25%;
+}
+
+#score-dice5 .score-pip2 {
+    top: 25%;
+    left: 75%;
+}
+
+#score-dice5 .score-pip3 {
+    top: 25%;
+    left: 25%;
+}
+
+#score-dice5 .score-pip4 {
+    top: 75%;
+    left: 75%;
+}
+
+#score-dice6 .score-pip1 {
+    top: 75%;
+    left: 25%;
+}
+
+#score-dice6 .score-pip2 {
+    top: 25%;
+    left: 75%;
+}
+
+#score-dice6 .score-pip3 {
+    top: 25%;
+    left: 25%;
+}
+
+#score-dice6 .score-pip4 {
+    top: 75%;
+    left: 75%;
+}
+
+#score-dice6 .score-pip5 {
+    left: 25%;
+}
+
+#score-dice6 .score-pip6 {
+    left: 75%;
+}
 /* SCORE DICE END */
 
 #roll-dice {
