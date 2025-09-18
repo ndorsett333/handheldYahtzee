@@ -59,6 +59,31 @@ body {
     border-radius: 10px;
 }
 
+/* LOWER SECTION SCORES START */
+#lower-section-scores {
+    display: flex;
+    gap: 1px;
+}
+
+.lower-section-score {
+    height: 30px;
+    width: 30px;
+    background-color: var(--lightyellow);
+    border-radius: 5px;
+    border: 1px solid var(--night);
+    position: relative;
+    font-size: 9px;
+}
+
+.lower-section-score#yahtzee {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+/* LOWER SECTION SCORES END */
+
 /* SCORE DICE START */
 #score-dice {
     display: flex;
@@ -339,5 +364,15 @@ body {
     background: var(--bittersweet);
     border-radius: 30px;
     cursor: pointer;
+}
+
+#select-btns {
+    display: flex;
+}
+
+#select-left,
+#select-right {
+    width: 50%;
+    height: 100%;
 }
 
