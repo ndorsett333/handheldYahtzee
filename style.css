@@ -225,97 +225,97 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.num2 .pip {
+.roll-die[data-num="2"] .pip {
     top: 75%;
     left: 25%;
 }
 
-.num2 .pip1 {
+.roll-die[data-num="2"] .pip1 {
     top: 25%;
     left: 75%;
 }
 
-.num3 .pip1 {
+.roll-die[data-num="3"] .pip1 {
     top: 75%;
     left: 25%;
 }
 
-.num3 .pip2 {
+.roll-die[data-num="3"] .pip2 {
     top: 25%;
     left: 75%;
 }
 
-.num4 .pip1 {
+.roll-die[data-num="4"] .pip1 {
     top: 75%;
     left: 25%;
 }
 
-.num4 .pip2 {
+.roll-die[data-num="4"] .pip2 {
     top: 25%;
     left: 75%;
 }
 
-.num4 .pip3 {
+.roll-die[data-num="4"] .pip3 {
     top: 25%;
     left: 25%;
 }
 
-.num4 .pip4,
-.num4 .pip5,
-.num4 .pip6 {
+.roll-die[data-num="4"] .pip4,
+.roll-die[data-num="4"] .pip5,
+.roll-die[data-num="4"] .pip6 {
     top: 75%;
     left: 75%;
 }
 
-.num5 .pip1 {
+.roll-die[data-num="5"] .pip1 {
     top: 75%;
     left: 25%;
 }
 
-.num5 .pip2 {
+.roll-die[data-num="5"] .pip2 {
     top: 25%;
     left: 75%;
 }
 
-.num5 .pip3 {
+.roll-die[data-num="5"] .pip3 {
     top: 25%;
     left: 25%;
 }
 
-.num5 .pip4 {
+.roll-die[data-num="5"] .pip4 {
     top: 75%;
     left: 75%;
 }
 
-.num6 .pip1 {
+.roll-die[data-num="6"] .pip1 {
     top: 75%;
     left: 25%;
 }
 
-.num6 .pip2 {
+.roll-die[data-num="6"] .pip2 {
     top: 25%;
     left: 75%;
 }
 
-.num6 .pip3 {
+.roll-die[data-num="6"] .pip3 {
     top: 25%;
     left: 25%;
 }
 
-.num6 .pip4 {
+.roll-die[data-num="6"] .pip4 {
     top: 75%;
     left: 75%;
 }
 
-.num6 .pip5 {
+.roll-die[data-num="6"] .pip5 {
     left: 75%;
 }
 
-.num6 .pip6 {
+.roll-die[data-num="6"] .pip6 {
     left: 25%;
 }
 
-.num0 .pip {
+.roll-die[data-num="0"] .pip {
     display: none;
 }
 /* PIPS END */
