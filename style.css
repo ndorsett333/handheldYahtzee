@@ -335,6 +335,7 @@ body {
 #hold-btns {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 12px;
 }
 
 .hold-btn {
@@ -348,6 +349,7 @@ body {
 #settings-btns {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 #new-game-btn-out {
@@ -399,5 +401,13 @@ body {
     /* height: 100%; */
     border-radius: 100%;
     border: 1px solid #FE3434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#select-left img,
+#select-right img {
+    width: 50px;
 }
 
