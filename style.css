@@ -332,6 +332,16 @@ body {
 }
 /* PIPS END */
 
+#hold-indicators {
+    display: flex;
+}
+
+.hold-indicator {
+    width: 53.4px;
+    display: flex;
+    justify-content:space-between;
+}
+
 #hold-btns {
     display: flex;
     justify-content: space-between;
@@ -371,6 +381,7 @@ body {
 
 #action-btns {
     display: flex;
+    justify-content: space-between;
 }
 
 #enter-btn {
@@ -387,6 +398,9 @@ body {
     width: 120px;
     background: var(--bittersweet);
     border-radius: 30px;
+}
+
+#roll-btn {
     cursor: pointer;
 }
 
@@ -404,10 +418,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 #select-left img,
 #select-right img {
     width: 50px;
+}
+
+#select-right img {
+    transform: scaleX(-1);
 }
 
