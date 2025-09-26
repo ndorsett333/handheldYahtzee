@@ -211,6 +211,19 @@ body {
 }
 /* SCORE DICE END */
 
+#score-section {
+    display: flex;
+    justify-content: center;
+}
+
+#score {
+    font-size: 12px;
+}
+
+#score-numbers {
+    font-size: 20px;
+}
+
 #roll-dice {
     display: flex;
     gap: 5px;
@@ -334,12 +347,15 @@ body {
 
 #hold-indicators {
     display: flex;
+    gap:5px;
+    justify-content: space-between;
+    font-size: 12px;
 }
 
 .hold-indicator {
-    width: 53.4px;
+    width: 55px;
     display: flex;
-    justify-content:space-between;
+    justify-content: center;
 }
 
 #hold-btns {
