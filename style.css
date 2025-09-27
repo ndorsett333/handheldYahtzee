@@ -52,8 +52,6 @@ body {
     border-radius: 30px;
     display: flex;
     flex-direction: column;
-    /* justify-content: ;
-    align-content: ; */
     align-items: center;
     padding-top: 8px;
 }
